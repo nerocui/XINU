@@ -1,0 +1,25 @@
+
+
+This is the number -69 when printed signed -69 unsigned 4294967227 hex ffffffbb
+and a string Hello.
+      Sample printing of 1024 in signed 1024, unsigned 1024 and hex 400.Creating
+ root...-root created--idle create Success-finish next-4.1.5, call old producer
+consumer without yielding, if printed, then works--KILL KILL KILL--got in sender
+--got in SEND--blocked sender---0 th proc, pid: 3, state: 1--1 th proc, pid: 4,
+state: 1--2 th proc, pid: 5, state: 1--3 th proc, pid: 6, state: 1--4 th proc, p
+id: 7, state: 1--5 th proc, pid: 8, state: 1--6 th proc, pid: 9, state: 1-got in
+ revcr--got in RECV--blocked recvr---0 th proc, pid: 5, state: 1--1 th proc, pid
+: 6, state: 1--2 th proc, pid: 7, state: 1--3 th proc, pid: 8, state: 1--4 th pr
+oc, pid: 9, state: 1--5 th proc, pid: 3, state: 1-got in sender--got in SEND--bl
+ocked sender---0 th proc, pid: 7, state: 1--1 th proc, pid: 8, state: 1--2 th pr
+oc, pid: 9, state: 1--3 th proc, pid: 3, state: 1--4 th proc, pid: 5, state: 1--
+--We are in sleep--------Sleep queue was null, now proc1 is in it--------We are
+in sleep--------Add it to the end-----got in revcr--got in RECV--sender was bloc
+ked--the sender ID is: 2 , the recvr ID is: 3 --recv returned 0, and the message
+ is: 1 , and the addr of ptr is: 59068--back from recv, and the message is: 1, a
+nd the addr of ptr is: 59068---0 th proc, pid: 5, state: 1--1 th proc, pid: 7, s
+tate: 1--2 th proc, pid: 2, state: 1--3 th proc, pid: 3, state: 1-got in revcr--
+got in RECV--blocked recvr---0 th proc, pid: 2, state: 1--1 th proc, pid: 3, sta
+te: 1--2 th proc, pid: 5, state: 1-KILL KILL KILL-got that message-KILL KILL KIL
+L--got in sender--got in SEND--blocked sender---0 th proc, pid: 999, state: 1---
+--Im in edle-----ß

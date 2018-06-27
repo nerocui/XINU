@@ -1,0 +1,39 @@
+
+This file is to include your testing documentation. The file is to be
+in plain text ASCII and properly spaced and edited so that when it is
+viewed on a Linux machine it is readable. Not all ASCII files created
+on a Windows machine display as expected due to the differences with
+respect to how new lines and carriage returns are treated. Line widths
+are to be limited to 80 characters.
+
+
+<----test for mem.c---->
+
+We want to test if the kmalloc function can handle extremely big memory 
+slots, if we deal with the hole, and if everything stays the same after 
+we kmalloc and kfree.  
+
+
+Before we malloc any memory slots, we need to find the free memory 
+slot before the hole and the free memory after the hole by subtracting max 
+address and the address where the hole ends. 
+
+First we malloc a extremely big memory slot to see if our kmalloc function 
+can handle this problem, and our function found that it does not have such 
+big memory slot and return 0. Then we malloc 8 memery slot and free them. 
+After we free those memory slots, we check if the address of the free memory 
+before the hole and the address of the free memory after the hole stay the 
+same.
+
+<-----test for process creation, dispatching, switching, and terminating---->
+
+We use the producer and Consumer as part of our test. However, we added more.
+
+Other than just printing happy birthday 12/15 times, I also created a third process in root
+and let this one creates two more that constantly switch to the other to count number. 
+The first will say 0 and the second one will say 1 and so on. they both run and yield for 
+15 iterations. Thus the number they count will reach 29 at the end.
+
+With process creating process and constantly switching before stoping. We are able to test syscall,
+ctsw, disp and potentially mem.c. Being able to have all the creating and switching working correct,
+we can conclusively prove that they all work fine. 
